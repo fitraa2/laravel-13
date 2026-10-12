@@ -22,7 +22,7 @@
         }
 
         .hero-section {
-            background-color: #3187e9;
+            background-color: #222222;
             color: white;
             padding: 50px 0;
             text-align: center;
@@ -154,6 +154,27 @@
 
             <div class="col-md-6">
                 {{-- Alerts --}}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Form Pertanyaan</h5>
+                        <form action="{{ route('question.store') }}" method="POST">
+	                    @csrf
+                            <div class="mb-3">
+                                <label for="nama" class="form-label">Nama</label>
+                                <input type="text" class="form-control" name="nama">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="text" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pertanyaan" class="form-label">Pertanyaan</label>
+                                <textarea class="form-control" rows="4" name="pertanyaan"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim Pertanyaan</button>
+                        </form>
+                    </div>
+                </div>
                 <div class="card ">
                     <div class="card-body">
                         <h3 class="h5 mb-3">Alerts</h3>
