@@ -932,13 +932,10 @@
 			</div>
 		</footer>
 	</main>
-
 	<!-- Core -->
 	<script src="{{ asset('assets-admin/img/vendor/@popperjs/core/dist/umd/popper.min.js')}}"></script>
 	<script src="{{ asset('assets-admin/img/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-
 	<!-- Vendor JS -->
 	<script src="{{ asset('assets-admin/img/vendor/onscreen/dist/on-screen.umd.min.js')}"></script>
 </body>
-
 </html>
