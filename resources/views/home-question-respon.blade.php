@@ -24,7 +24,7 @@
         }
 
         .thankyou-container h2 {
-            color: #3E97FF;
+            color: #B2D5F1;
             font-weight: bold;
         }
 
